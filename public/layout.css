@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  float: left;
+}
+
+.main-container.users {
+  width: 25%;
+  height: 100vh;
+  border-right: 1px solid #cccccc;
+}
+
+.main-container.chat {
+  width: 75%;
+  background-color: orangered;
+}
+
+.profile-container {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.profile-user {
+  float: left;
+}
+
+.profile-user.photo {
+  width: 20%;
+}
+
+.profile-user.heading {
+  width: 20%;
+}
+
+.profile-user.setting {
+  width: 20%;
+}
+
+.profile-user.edit {
+  width: 20%;
+}
+
+.profile-user-image {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.profile-user-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-user-setting {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+
+.profile-setting-image {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  margin-top: 7px;
+}
+
+.profile-setting-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-user-edit {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+
+.profile-edit-image {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  margin-top: 7px;
+}
+
+.profile-edit-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-user p {
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.user-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.search-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.search-user {
+  float: left;
+}
+
+.search-user.button {
+  width: 30%;
+}
+
+.search-user.text {
+  width: 70%;
+}

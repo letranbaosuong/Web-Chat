@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chat SocketIO</title>
+	<script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+<body>
+	<div id="chat">
+      <h1>DEMO CHAT SOCKET IO - NODEJS</h1>
+      <input type="text" id="txtUser" placeholder="User Name" />
+      <input type="button" id="btnDangKy" value="Đăng Ký" />
+      <div id="tenUserdaDK">hihihihi</div>
+        <div class="block"></div>
+      <div id="left">
+        <div id="title">Users Online</div>
+        <div id="danhsachUsersOnline"></div>
+
+      </div>
+
+      <div id="right">
+        <div id="dsMsg">
+          <% data.forEach(function (item){ %>
+          	<span class="hoten"><%= item.user %>: </span>
+            <span class="msg"><%= item.message %></span>
+            <div class="block"></div>
+      	  <% }) %>
+        </div>
+        <div class="block"></div>
+        <input type="text" id="txtMessage" placeholder="Message..." />
+        <input type="button" id="btnSendChat" value="Gửi">
+      </div>
+
+    </div>
+</body>
+</html>
